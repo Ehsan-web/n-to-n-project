@@ -53,6 +53,3 @@ for i in {1..6}; do curl -s http://localhost | grep "Server name"; echo "---"; d
 ```
 
 You should see the Server name (Container ID) changing with each request, indicating that the Round-Robin mechanism is working perfectly.
-
-## Author
-Ehsan
